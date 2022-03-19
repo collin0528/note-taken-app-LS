@@ -1,0 +1,62 @@
+body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+section{
+	width: 20%;
+	height: 5em;
+	margin: auto;
+}
+
+section button{
+	width: 200px;
+	height: 50px;
+	background: pink;
+	border-radius: 30px;
+	border: none;
+}
+
+section button:hover{
+	background: green;
+	color: white;
+	cursor: pointer;
+}
+
+
+.container{
+	width: 20%;
+	height: 20em;
+	background: deepskyblue;
+	border:  3px solid black;
+	margin: auto;
+	padding: 15px;
+	border-top: none;
+	border-right: none;
+	position: relative;
+	display: none;
+
+
+}
+
+.container button{
+	width: 100px;
+	height: 35px;
+	margin-left: 70px;
+	background: green;
+	cursor: pointer;
+}
+
+#check{
+	background: red;
+	width: 60px;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+	position: absolute;
+}
